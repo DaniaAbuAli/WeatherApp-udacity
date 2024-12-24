@@ -1,0 +1,65 @@
+body {
+  background: #215342;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+#app {
+  padding: 20px;
+  margin: 20px;
+}
+
+.holder.headline {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.left,
+.right {
+  margin-top: 60px;
+  padding: 10px;
+  margin-left: 50px;
+}
+.Latitude,
+.Longitude {
+  display: block;
+  margin-top: 20px;
+  padding: 15px;
+  border: solid 1px black;
+}
+.container {
+  display: flex;
+}
+.holder.feel {
+  margin-top: 30px;
+}
+.myInput {
+  display: block;
+  margin-top: 15px;
+  border: solid 1px black;
+}
+.Latitude,
+.Longitude,
+.myInput:focus {
+  outline: none;
+}
+
+#generate {
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  background-color: #378369;
+  color: white;
+  cursor: pointer;
+}
+.right {
+  margin-left: 300px;
+}
+
+#entryHolder div {
+  margin-top: 15px;
+} 
+
